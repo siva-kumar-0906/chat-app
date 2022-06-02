@@ -27,6 +27,3 @@ io.emit('some event', { someProperty: 'some value', otherProperty: 'other value'
         });
   });
 
-server.listen(3000, () => {
-  console.log('listening on *:3000');
-});
